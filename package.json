@@ -1,0 +1,16 @@
+{
+  "name": "mobigen",
+  "version": "0.1.0",
+  "description": "CLI to generate valid E.164 mobile numbers for NL, BE, FR, DE",
+  "bin": {
+    "mobigen": "bin/mobigen.js"
+  },
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "google-libphonenumber": "^3.2.38"
+  }
+}
